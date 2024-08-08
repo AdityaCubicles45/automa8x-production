@@ -16,7 +16,7 @@ import ReactFlow, {
   addEdge,
 } from 'reactflow'
 import 'reactflow/dist/style.css'
-
+import EditorCanvasCardSingle from './editor-canvas-card-single'
 import {
   ResizableHandle,
   ResizablePanel,
@@ -26,11 +26,9 @@ import { toast } from 'sonner'
 import { usePathname } from 'next/navigation'
 import { v4 } from 'uuid'
 import { EditorCanvasDefaultCardTypes } from '@/lib/constant'
-
-import { onGetNodesEdges } from '../../../_actions/workflow-connections'
-import EditorCanvasCardSingle from './editor-canvas-card-single'
 import FlowInstance from './flow-instance'
 import EditorCanvasSidebar from './editor-canvas-sidebar'
+import { onGetNodesEdges } from '../../../_actions/workflow-connections'
 
 type Props = {}
 
@@ -277,4 +275,4 @@ const EditorCanvas = (props: Props) => {
   )
 }
 
-export default EditorCanvas 
+export default EditorCanvas

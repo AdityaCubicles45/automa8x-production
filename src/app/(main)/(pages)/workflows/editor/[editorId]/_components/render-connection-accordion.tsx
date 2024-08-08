@@ -6,7 +6,7 @@ import MultipleSelector from '@/components/ui/multiple-selector'
 import { Connection } from '@/lib/types'
 import { useNodeConnections } from '@/providers/connections-provider'
 import { EditorState } from '@/providers/editor-provider'
-
+import { useFuzzieStore } from '@/store'
 import {
   Command,
   CommandEmpty,
@@ -22,7 +22,6 @@ import {
 import { CheckIcon, ChevronsUpDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
-import { useFuzzieStore } from '@/store'
 
 const frameworks = [
   {
