@@ -20,3 +20,7 @@ We’re committed to further developing our integration with Aptos, exploring ne
 
 Get Involved
 Interested in contributing or learning more about our journey with Aptos? Check out our repository and join the conversation. Your feedback and collaboration are always welcome!
+
+Social Links:
+https://x.com/adityastwt18
+https://linkedin.com/in/aadityasingh18/
